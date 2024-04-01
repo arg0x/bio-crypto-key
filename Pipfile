@@ -4,11 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-opencv-python = "*"
+imageio = "*"
+pandas = "*"
+opencv-contrib-python = "*"
 matplotlib = "*"
+ipykernel = "*"
+scikit-image = "*"
 
 [dev-packages]
-ipykernel = "*"
 
 [requires]
 python_version = "3.11"
